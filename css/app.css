@@ -1,6 +1,4 @@
-p {
-  background-color: ;
-}
+
 
 body {
 
@@ -21,9 +19,14 @@ p{
   padding: 5px 5px;
   font-size: 20px;
   color: white;
+  background-color: black;
+  opacity: .8;  
 }
 
 
+a {
+  color: white;
+}
 
 
 h1 {
@@ -31,7 +34,7 @@ h1 {
   padding-top: 50px;
   font-size: 3em;
   color: white;
-}
+  font-family: copperplate}
 
 
 
@@ -45,9 +48,10 @@ div {
 
 body {
   margin: 0;
-  padding-top: 0;
-  background-image: url(http://intrawallpaper.com/wp-content/uploads/dark-wood-wallpapers-full-hd-wallpaper-images-other-images-wallpaper-images.jpg);
+  padding-top: 100px;
+  background-image: url(http://www.letthedogin.com/wp-content/uploads/2013/01/curtains.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 form {
@@ -57,10 +61,10 @@ form {
 }
 
 form input{
-  height: 16px;
+  height: 15px;
   width: 160px;
 }
 
 form label{
-  font-style: italic;
+  font-size: 20px;
 }

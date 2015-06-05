@@ -22,7 +22,7 @@ xhr.addEventListener('load', function () {
   console.log(responseData);
   console.log(responseData.Title);
     var p = document.createElement('p');
-    p.innerHTML = "<h3>"+responseData.Title+"</h3>" + "<br>" + "Runtime:  "+responseData.Runtime +
+    p.innerHTML = "<h3>"+responseData.Title+"</h3>" + "<img src=" +responseData.Poster +">" + "<br>" + "Runtime:  "+responseData.Runtime +
      "<br>"+ "Rated:  " +responseData.Rated +"<br>"+ "Year:  "+responseData.Year+ "<br>"+ "Release Date:  "+responseData.Released;
     document.body.appendChild(p);
 // }
