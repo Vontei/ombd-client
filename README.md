@@ -3,4 +3,4 @@
 
 A movie search tool via OMDB's API.
 
-# ombd-client
+# Omdb - Client
